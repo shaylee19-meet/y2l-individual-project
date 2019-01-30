@@ -3,12 +3,14 @@
 <title> show books </title>
 </head>
 <body>
+<a href="/"> homepage </a>
 {%for book in books%}
 <p>
-book.name_of_book<br>
-book.author<br>
-book.genre<vr>
-book.discription<br>
+{{book.name_of_book}}<br>
+{{book.author}}<br>
+{{book.genre}}<br>
+{{book.discription}}<br>
 </p>
+{%endfor%}
 </body>
 </html>

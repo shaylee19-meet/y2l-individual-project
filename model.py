@@ -8,9 +8,9 @@ Base = declarative_base()
 # Write your classes here :
 class Books (Base):
     __tablename__ = 'books'
-    book_id=Columm(Integer, primary_key=True)
-    name_of_book=Columm(String)
-    author=Columm(String)
-    genre =Columm(String)
-    discription=Columm(String) 
+    book_id=Column(Integer, primary_key=True)
+    name_of_book=Column(String)
+    author=Column(String)
+    genre =Column(String)
+    discription=Column(String) 
     pass
